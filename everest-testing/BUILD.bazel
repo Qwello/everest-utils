@@ -1,5 +1,5 @@
 load("@rules_python//python:defs.bzl", "py_library")
-load("@everest-testing_pip_deps//:requirements.bzl", "requirement")
+load("@everest-utils//:requirements.bzl", "requirement")
 
 py_library(
     name = "everest-testing",
