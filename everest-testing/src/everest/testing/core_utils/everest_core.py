@@ -171,7 +171,7 @@ class EverestCore:
         logging.info(self._status_fifo_path)
 
         args = [str(manager_path.resolve()), '--config', str(self.everest_config_path),
-                '--status-fifo', str(self._status_fifo_path)]
+                '--status-fifo', str(self._status_fifo_path), '--prefix', str(self.prefix_path.resolve())]
 
         if standalone_module:
             logging.info(f"Standalone module {standalone_module} was specified")
