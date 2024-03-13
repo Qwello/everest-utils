@@ -195,7 +195,7 @@ class EverestCore:
 
         status = self.status_listener.wait_for_status(STARTUP_TIMEOUT, [expected_status])
         if status == None or len(status) == 0:
-            read_everest_log()
+            self.read_everest_log()
             raise TimeoutError("Timeout while waiting for EVerest to start")
 
         logging.info("EVerest has started")
