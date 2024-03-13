@@ -13,7 +13,7 @@ attrs>=22.2.0
 cffi==1.15.1
 exceptiongroup==1.1.1
 iniconfig==2.0.0
-jsonschema==4.20.0
+jsonschema==4.17.3
 jsonschema-specifications==2023.11.1
 pluggy==1.0.0
 pyrsistent==0.19.3
