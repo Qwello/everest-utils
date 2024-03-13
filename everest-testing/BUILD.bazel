@@ -13,6 +13,7 @@ py_library(
         requirement("ocpp"),
         requirement("websockets"),
         requirement("pyOpenSSL"),
+        requirement("pyyaml"),
     ],
     imports = ["src"],
     visibility = ["//visibility:public"],
